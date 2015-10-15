@@ -5,7 +5,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-import oracle.jdbc.proxy.annotation.Pre;
 import model.dto.Login;
 import connection.db.ConnectionDB;
 

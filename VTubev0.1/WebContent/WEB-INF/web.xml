@@ -292,11 +292,42 @@
     <servlet-name>UpdateUserAdmin</servlet-name>
     <url-pattern>/admin/html/update_user_admin</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>RegisterUser</servlet-name>
+    <servlet-class>controller.users.init.RegisterUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterUser</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginDis</servlet-name>
+    <servlet-class>controller.users.init.LoginDis</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginDis</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ActivationUser</servlet-name>
+    <servlet-class>controller.users.init.ActivationUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ActivationUser</servlet-name>
+    <url-pattern>/activate</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>ExpiredUsers</servlet-name>
+  	<servlet-class>controller.users.init.ExpiredUsers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ExpiredUsers</servlet-name>
+  	<url-pattern>/expired</url-pattern>
+  </servlet-mapping>
   <error-page>
     <error-code>404</error-code>
     <location>/admin/html/pnf.jsp</location>
   </error-page>
- 
   <filter>
     <filter-name>AdminFilter</filter-name>
     <filter-class>controller.admin.AdminFilter</filter-class>
