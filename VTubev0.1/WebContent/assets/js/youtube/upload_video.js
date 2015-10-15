@@ -220,7 +220,7 @@ UploadVideo.prototype.pollForVideoStatus = function() {
             setTimeout(this.pollForVideoStatus.bind(this), STATUS_POLLING_INTERVAL_MILLIS);
             
             swal({   
-             title: "<img src='../assets/images/loading.gif' width='150px'>",  
+             title: "<img src='../../assets/images/loading.gif' width='150px'>",  
        		 text: "Waiting Google Analysis...about 1 minute",
        		 html: true,
        		 showConfirmButton: false

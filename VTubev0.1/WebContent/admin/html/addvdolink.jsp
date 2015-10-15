@@ -323,7 +323,7 @@
 
 											<div class="col-sm-12">
 
-												<input type="text" id="video-link" placeholder="http://youtube.com/watch?v=...." class="form-control" value="http://youtube.com/watch?v=${updateVdo.video_url }">
+												<input type="text" id="video-link" placeholder="" class="form-control" value="http://youtube.com/watch?v=${updateVdo.video_url }">
 
 											</div>
 
