@@ -1,8 +1,7 @@
 # VTubev0.1 Back-End
 Video Management with Youtube api
 
-This is my during testing at home with jstl and servlet after learn at
-KSHRD Center 08-Sep-15 Database 09-Sep Template edit might 1 week
+This is my during testing at home with jstl and servlet 08-Sep-15 Database 09-Sep Template edit might 1 week
 
 Technologies = JSP, JS, JQuery, JSTL/EL, Ajax, Servlet, Bootstrap, Sweet Alert,
 
